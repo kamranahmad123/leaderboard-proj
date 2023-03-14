@@ -70,18 +70,21 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+To get a local copy and run, follow these steps.
+### Prerequisites
+Visual Studio Code
+Chrome Browser
+Node.js
 ### Setup
-1- Clone this repository to your desired folder:
-
-```sh
-  git clone https://github.com/kamranahmad123/leaderboard/tree/development
-```
-2- Run npm install for running the project locally after clonning up:
-
-3- Run 'npm start' for running the project:
-
+1- Clone this repository to your desired folder
+2- cd my-folder
+3- git clone git@github.com:kamranahmad123/leaderboard-proj.git
+4- cd leaderboard-proj
+### Install
+npm install
+### Usage
+npm run build
+npm start
 
 ### Deployment
 
