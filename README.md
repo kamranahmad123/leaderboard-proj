@@ -77,9 +77,17 @@ Chrome Browser
 Node.js
 ### Setup
 1- Clone this repository to your desired folder
+
 2- cd my-folder
-3- git clone git@github.com:kamranahmad123/leaderboard-proj.git
+
+3- git clone
+
+```
+  git@github.com/kamranahmad123/leaderboard-proj.git
+```
+
 4- cd leaderboard-proj
+
 ### Install
 npm install
 ### Usage
@@ -92,7 +100,6 @@ You can deploy this project using
 > [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 > [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/add-remove-todos) and paste index adress into it to view.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
