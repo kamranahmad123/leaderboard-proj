@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-#### <a href="comming soon">Coming soon</a>
+#### <a href="https://kamranahmad123.github.io/leaderboard-proj/dist/">live link</a>
 
 
 
