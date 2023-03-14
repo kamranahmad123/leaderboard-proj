@@ -1,0 +1,60 @@
+.main-body {
+  gap: 5%;
+  display: flex;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.list {
+  width: 100%;
+  list-style: none;
+  border: solid;
+  padding: 0;
+  height: auto;
+}
+
+li {
+  padding: 2%;
+}
+
+li:nth-child(even) {
+  background-color: rgb(224, 219, 219);
+}
+
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Refresh {
+  height: 60%;
+  margin-top: 25px;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dataEntry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25%;
+  height: 50%;
+  gap: 10px;
+}
+
+.dataList {
+  width: 45%;
+}
+
+.sub-button {
+  float: right;
+}
+
+h1 {
+  margin-left: 15%;
+}
