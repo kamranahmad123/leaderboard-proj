@@ -159,7 +159,7 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/kamranahmad123/leaderboard/blob/setup-project/LICENSE.md) licensed.
+This project is [MIT](https://github.com/kamranahmad123/leaderboard-proj/blob/hit-API-styling/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
