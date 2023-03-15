@@ -19,7 +19,7 @@ const displayData = (storedData) => {
   ulist.innerHTML = '';
   storedData.forEach((Element) => {
     const list = document.createElement('li');
-    list.innerHTML = `${Element.user}: ${Element.score}`;
+    list.innerHTML = `<div class='storedData'><p>${Element.user}:</p> <p>${Element.score}</p></div>`;
     ulist.appendChild(list);
   });
 };

@@ -1,24 +1,38 @@
 .main-body {
   gap: 5%;
   display: flex;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 5%;
+  width: 80%;
+  padding-left: 90px;
+}
+
+body {
+  background-color: rgb(211, 211, 241);
 }
 
 .list {
   width: 100%;
   list-style: none;
-  border: solid;
+  border: solid black 0.5px;
   padding: 0;
   height: auto;
+  border-radius: 10px;
+  border-color: rgb(126, 104, 104);
 }
 
 li {
   padding: 2%;
+  border-radius: 11px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(240, 174, 119);
+  color: white;
 }
 
 li:nth-child(even) {
-  background-color: rgb(224, 219, 219);
+  background-color: rgba(255, 231, 186, 0.719);
 }
 
 .list-head {
@@ -51,10 +65,85 @@ li:nth-child(even) {
   width: 45%;
 }
 
+.sub-button,
+.Refresh {
+  transition: 1s;
+  height: 25px;
+  background-color: rgba(255, 166, 0, 0.719);
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}
+
+.Refresh:hover {
+  transform: scale(1.3);
+}
+
 .sub-button {
   float: right;
 }
 
+.sub-button:hover {
+  transform: scale(1.3);
+}
+
 h1 {
-  margin-left: 15%;
+  margin-left: 3%;
+  color: rgb(146, 146, 32);
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  animation: swing 4s ease-in-out 3s infinite;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  10% {
+    transform: rotateX(60deg);
+  }
+
+  20% {
+    transform: rotateX(120deg);
+  }
+
+  40% {
+    transform: rotateX(180deg);
+  }
+
+  60% {
+    transform: rotateX(240deg);
+  }
+
+  80% {
+    transform: rotateX(300deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+#scores {
+  color: blue;
+  font-style: italic;
+}
+
+#head {
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  margin-bottom: -30px;
+}
+
+.storedData {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+
+.notification {
+  color: green;
+  font-style: italic;
 }
